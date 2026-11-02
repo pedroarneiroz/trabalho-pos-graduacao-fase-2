@@ -1,6 +1,6 @@
-from src.fitness import gerar_instrucoes_rota, gerar_relatorio_gerencial
+from src.llm import gerar_instrucoes_rota, gerar_relatorio_gerencial
 from src.mapa import desenhar_mapa_rotas
-from src.operadores import selecao_torneio, crossover_ordem, mutacao_swap
+# from src.operadores import selecao_torneio, crossover_ordem, mutacao_swap
 
 matriz = {
     "veiculos": [
